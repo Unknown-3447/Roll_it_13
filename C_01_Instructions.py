@@ -4,13 +4,14 @@ def yes_no(question):
         response = input(question).lower()
 
         # checks user response, question
-        # repeats if user don't enter yes or no
+        # repeats if users don't enter yes / no
+
         if response == "yes" or response == "y":
             return "yes"
         elif response == "no" or response == "n":
             return "no"
         else:
-            print("Please enter yes or no")
+            print("Please enter yes / no")
 
 
 def instruction():
@@ -45,7 +46,6 @@ print("🎲🎲 Roll it 13 🎲🎲")
 print()
 
 # loop for testing purposes
-
 
 want_instructions = yes_no("Do you want to read the instructions? ")
 
