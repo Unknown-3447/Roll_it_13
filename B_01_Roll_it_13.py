@@ -40,6 +40,7 @@ If you lose the round, then you don't get any points.
 
     ''')
 
+
 # Checks that users enter an integer
 # that is more than 13
 def int_check():
